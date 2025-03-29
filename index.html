@@ -4,23 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script>
+    function navigateTo(page) {
+        window.location.href = page;
+    }
+</script>
 </head>
 <body>
-  
   <div id = "header">
   <h1>Welcome to my ICSpark Final Project Website!</h1>
   </div>
   
   
   <div id="previewButtons">
-      <button id = "homeButton">Home</button>
-      <button id = "quizButton2">Quiz</button>
-      <button id = "clickerButton2">Clicker</button>
-      <button id = "madLibsButton2">Mad Libs</button>
-      <button id = "wikiButton2">Wiki</button>
-      <button id = "RPGButton2">RPG</button>
-      <button id = "studyButton2">Study</button>
-      <button id = "triviaButton2">Trivia</button>
+      <button onclick="navigateTo('index.html')" id = "homeButton">Home</button>
+      <button onclick="navigateTo('quiz.html')" id = "quizButton2">Quiz</button>
+      <button onclick="navigateTo('clicker.html')" id = "clickerButton2">Clicker</button>
+      <button onclick="navigateTo('madLibs.html')" id = "madLibsButton2">Mad Libs</button>
+      <button onclick="navigateTo('wiki.html')" id = "wikiButton2">Wiki</button>
+      <button onclick="navigateTo('RPG.html')" id = "RPGButton2">RPG</button>
+      <button onclick="navigateTo('study.html')" id = "studyButton2">Study</button>
+      <button onclick="navigateTo('trivia.html')" id = "triviaButton2">Trivia</button>
   </div> 
   
  
@@ -63,4 +67,6 @@
   </body>
   
 </html>
+
+
 

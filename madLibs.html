@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madlibs</title>
+    <link rel="stylesheet" href="madLibs.css">
+</head>
+<body style="background-image: url('images/background.jpg');">
+
+    <nav>
+        <ul>
+            <li><a href="subfolder1/index.html">Go to Subfolder 1</a></li>
+            <li><a href="subfolder2/index.html">Go to Subfolder 2</a></li>
+            <li><a href="index.html">Go to Index.html</a></li>
+            <li><a href="page2.html">Go to Page 2</a></li>
+        </ul>
+    </nav>
+
+    <h1>Mad Libs!</h1>
+    <h2>Generate a Funny Story By Choosing One Below</h2>
+
+    <!-- Start writing code below -->
+     <div class="container"> 
+        <div class="category">
+            <img src="images/dinner.jpg" alt="adventure">
+            <button onclick="adventure()">Adventure in the Amazon Jungle</button>
+        </div>
+        <div class="category">
+            <img src="images/mystery.jpg" alt="groceryAdventure">
+            <button onclick="groceryAdventure()">Generate Dinner Story!</button>
+        </div>
+        <div class="category">
+            <img src="images/time_travel.jpg" alt="travel">
+            <p>Your malfunctioning time machine has created total chaos in the space-time continuum! Someone has used it to steal your homework before it was even due. It is up to you to travel through time and get it back before the bell rings for class.</p>
+            <button onclick="travel()">Generate Time Travel Story!</button>
+        </div>
+        <div class="category">
+            <img src="images/dinner.jpg" alt="adventure">
+            <p>You have been invited to the most bizarre dinner party in town filled with unexpected twists, peculiar foods, and outrageous events.</p>
+            <button onclick="dinner()">Generate Dinner Story!</button>
+        </div>
+        <div class="category">
+            <img src="images/mystery.jpg" alt="mystery">
+            <p>Enter the world of cobblestone streets, candlelit mansions, and peculiar characters, where a shocking crime shakes Victorian high society. A dashing yet delightfully unconventional detective must piece together the puzzle, navigating a cast of absurd suspects and hilariously bizarre clues.</p>
+            <button onclick="mystery()">Generate Dinner Story!</button>
+        </div>
+        <div class="category">
+            <img src="images/time_travel.jpg" alt="travel">
+            <p>Your malfunctioning time machine has created total chaos in the space-time continuum! Someone has used it to steal your homework before it was even due. It is up to you to travel through time and get it back before the bell rings for class.</p>
+            <button onclick="travel()">Generate Time Travel Story!</button>
+        </div>
+        <div class="category">
+            <img src="images/dinner.jpg" alt="adventure">
+            <p>You have been invited to the most bizarre dinner party in town filled with unexpected twists, peculiar foods, and outrageous events.</p>
+            <button onclick="dinner()">Generate Dinner Story!</button>
+        </div>
+        <div class="category">
+            <img src="images/mystery.jpg" alt="mystery">
+            <p>Enter the world of cobblestone streets, candlelit mansions, and peculiar characters, where a shocking crime shakes Victorian high society. A dashing yet delightfully unconventional detective must piece together the puzzle, navigating a cast of absurd suspects and hilariously bizarre clues.</p>
+            <button onclick="mystery()">Generate Dinner Story!</button>
+        </div>
+        <div class="category">
+            <img src="images/time_travel.jpg" alt="travel">
+            <p>Your malfunctioning time machine has created total chaos in the space-time continuum! Someone has used it to steal your homework before it was even due. It is up to you to travel through time and get it back before the bell rings for class.</p>
+            <button onclick="travel()">Generate Time Travel Story!</button>
+        </div>
+     </div>
+
+     <h1>Your Generated Story</h1>
+     <div id="output"></div>
+
+    <script src="madLibs.js"></script>
+</body>
+</html>
