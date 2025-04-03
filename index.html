@@ -3,70 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ICSpark Poll</title>
   <link rel="stylesheet" href="style.css">
-  <script>
-    function navigateTo(page) {
-        window.location.href = page;
-    }
-</script>
 </head>
 <body>
-  <div id = "header">
-  <h1>Welcome to my ICSpark Final Project Website!</h1>
-  </div>
-  
-  
-  <div id="previewButtons">
-      <button onclick="navigateTo('index.html')" id = "homeButton">Home</button>
-      <button onclick="navigateTo('quiz.html')" id = "quizButton2">Quiz</button>
-      <button onclick="navigateTo('clicker.html')" id = "clickerButton2">Clicker</button>
-      <button onclick="navigateTo('madLibs.html')" id = "madLibsButton2">Mad Libs</button>
-      <button onclick="navigateTo('wiki.html')" id = "wikiButton2">Wiki</button>
-      <button onclick="navigateTo('RPG.html')" id = "RPGButton2">RPG</button>
-      <button onclick="navigateTo('study.html')" id = "studyButton2">Study</button>
-      <button onclick="navigateTo('trivia.html')" id = "triviaButton2">Trivia</button>
-  </div> 
-  
- 
-  <div id = "instructions">  
-  <p>
-      Before I began working on my final project, I took the time to try and think of what my final project would be! 
-      I couldn't think of anything so I used what ICSpark already provided, THE IDEAS!
-  </p>
-  </div>   
-
-  <div id = "preview">
-        <div id = "quizPreview">
-        <p> A Personality Quiz</p>
-        </div>
-        <div id = "clickerPreview">
-        <p> A Cookie Clicker Game</p>
-        </div>
-        <div id = "madLibsPreview">
-        <p  >Advanced Mad Libs Creator</p>
-        </div>
-        <div id = "wikiPreview">
-        <p> Wiki </p>
-        </div>
-        <div id = "RPGPreview">
-        <p> Choose Your Own Adventure Game</p> 
-        </div>
-        <div id = "studyPreview">
-        <p> Flashcard Study Website</p>
-        </div>
-        <div id = "triviaPreview">
-        <p> Trivia Game</p>
-        </div>
-
-        
-        
+  <div id="welcome-screen" class="fullscreen">
+    <h1 id="welcome-text">Welcome to my ICSpark Website</h1>
   </div>
 
+  <div id="poll-container" class="fullscreen hidden">
+    <h2 id="question"></h2>
+    <div id="answer-buttons" class="buttons-container">
+      <button class="answer-button" id="answer1"></button>
+      <button class="answer-button" id="answer2"></button>
+      <button class="answer-button" id="answer3"></button>
+      <button class="answer-button" id="answer4"></button>
+      <button class="answer-button" id="answer5"></button> <!-- For the 5th answer in the last question -->
+    </div>
+  </div>
+
+  <div id="trivia-intro" class="fullscreen hidden">
+    <h1>Programming Trivia Questions</h1>
+  </div>
 
   <script src="script.js"></script>
-  </body>
-  
+</body>
 </html>
-
-
-
